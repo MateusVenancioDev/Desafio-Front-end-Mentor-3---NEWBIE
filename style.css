@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #D6E1FF;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  width: 450px;
+  height: auto;
+  border-radius: 20px;
+  background: white;
+}
+
+.imagePrincipal {
+  width: 100%;
+  height: 15rem;
+  margin-bottom: 40px;
+  border-radius: 20px 20px 0px 0px;
+  background-image: url(./image/illustration-hero.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.text h1 {
+  margin-left: 15%;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.text p {
+  margin-left: 20px;
+  text-align: center;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 6rem;
+  border-radius: 10px;
+  background: #F8F9FE;
+}
+
+.backgroundMusic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DFE5FB;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+#iconMusic {
+  margin-right: 4px;
+  color: #7780A8;
+}
+
+.spaceText {
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+}
+
+#textPlan {
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+#valuePlan {
+  font-size: 17px;
+}
+
+#ChangePlan {
+  text-decoration: underline;
+  margin-left: 40px;
+  color: #382AE1;
+}
+
+#ChangePlan:hover {
+  cursor: pointer;
+}
+
+.btn-1 {
+  width: 80%;
+  margin-top: 40px;
+  margin-bottom: 35px;
+  padding: 13px;
+  border-radius: 10px;
+  background: #382AE1;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  border: 0;
+  box-shadow: 0px 20px 20px 0px #DEDBF8;
+}
+
+.btn-1:hover {
+  cursor: pointer;
+  background: #766CF1;
+}
+
+.btn-2 {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.btn-2:hover {
+  cursor: pointer;
+}
